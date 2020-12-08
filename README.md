@@ -1,4 +1,4 @@
-### Hi there 👋
+<img src="https://www.codewars.com/users/JFitzy1321/badges/large" alt="Codewars Badge"/>
 
 <!--
 **JFitzy1321/JFitzy1321** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
