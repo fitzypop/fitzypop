@@ -1,4 +1,4 @@
-[Code Wars Profile]( https://www.codewars.com/users/JFitzy1321 )
+[Code Wars Profile]( https://www.codewars.com/users/JFitzy1321 )  
 <img src="https://www.codewars.com/users/JFitzy1321/badges/large" />  
 
 
