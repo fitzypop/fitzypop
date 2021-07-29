@@ -1,3 +1,1 @@
-<img src="https://www.codewars.com/users/langnostic/badges/large" />  
-
-https://media.giphy.com/media/ToMjGpEgG0TD1cFleaQ/giphy.gif
+Hi. I'm Joe, and I like writing code. I work as a .NET Software Developer, but I've ben enjoying side projects with python and rust.
