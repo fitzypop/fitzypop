@@ -1,1 +1,3 @@
-Hi. I'm Joe, and I like writing code. Not sure what else to put here... ?
+Hi. I'm Joe. I work at a cybersecurity startup using Python, Pyramid, and AWS.
+
+I'm currently working on my own app for tracking workout sessions and progress.
