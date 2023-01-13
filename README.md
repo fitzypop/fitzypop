@@ -26,7 +26,7 @@ class SoftwareEngineer:
         self.hobbies = ["coding", "music and gear", "craft beer", "weightlifting"]
 
     def say_hi(self):
-        print("Thanks for dropping by, hope you find some of my work interesting.")
+        print("Thanks for visiting my page! I hope you find some of my work interesting.")
 
 
 me = SoftwareEngineer()
