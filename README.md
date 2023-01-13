@@ -14,7 +14,7 @@
 ![docker](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker)
 ![deno](https://img.shields.io/badge/Tools-Deno-informational?style=flat&logo=deno)
 
-[![Made with Fresh](https://fresh.deno.dev/fresh-badge-dark.svg)](https://fresh.deno.dev)
+<!-- [![Made with Fresh](https://fresh.deno.dev/fresh-badge-dark.svg)](https://fresh.deno.dev) -->
 
 <!-- ![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=6aa6f8) -->
 
