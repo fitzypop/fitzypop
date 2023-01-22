@@ -1,5 +1,4 @@
-# Hello there 🤙
-
+# Fitzypop's Profile
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 ![vs code](https://img.shields.io/badge/Editor-VS_Code-informational?style=flat&logo=visual-studio-code)
 ![python](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python)
@@ -42,7 +41,7 @@ impl SomeDude<'_> {
 }
 
 fn main() {
-    println!("Hello, rustacean! Welcome to my profile!");
+    println!("Hello there nerds 🤙. Welcome to my profile!");
     
     let me = SomeDude::new();
     println!("{:?}", me);
