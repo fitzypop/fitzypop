@@ -53,8 +53,8 @@ from dataclasses import dataclass, field
 
 @dataclass
 class SomeDude:
-    name: str = field(default="Fitzypop")
-    current_role: str = field(default="Software Engineer")
+    name: str = "Fitzypop"
+    role: str = "Software Engineer"
     hobbies: list[str] = field(
         default_factory=lambda: [
             "coding",
