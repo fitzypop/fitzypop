@@ -20,17 +20,17 @@
 
 ```rust
 #[derive(Debug)]
-struct SoftwareEngineer<'a> {
+struct SomeDude<'a> {
     name: &'a str,
-    role: &'a str,
+    current_role: &'a str,
     hobbies: Vec<&'a str>,
 }
 
-impl SoftwareEngineer<'_> {
+impl SomeDude<'_> {
     pub fn new() -> Self {
         Self {
             name: "Fitzypop",
-            role: "Software Engineer",
+            current_role: "Software Engineer",
             hobbies: vec![
                 "coding",
                 "music and gear",
@@ -43,22 +43,37 @@ impl SoftwareEngineer<'_> {
 
 fn main() {
     println!("Hello, rustacean! Welcome to my profile!");
-    let me = SoftwareEngineer::new();
+    
+    let me = SomeDude::new();
     println!("{:?}", me);
 }
 ```
 
 ```python
-class SoftwareEngineer:
-    def __init__(self):
-        self.name = "Fitzypop"
-        self.role = "Software Engineer"
-        self.hobbies = ["coding", "music and gear", "craft beer", "weightlifting"]
+from dataclasses import dataclass, field
+
+
+@dataclass
+class SomeDude:
+    name = "Fitzypop"
+    role = "Software Engineer"
+    hobbies: list[str] = field(
+        default_factory=lambda: [
+            "coding",
+            "music and gear",
+            "craft beer and microbrews",
+            "weightlifting",
+        ]
+    )
 
     def say_hi(self):
-        print("Thanks for visiting my page! I hope you find some of my work interesting.")
+        print(
+            "Thanks for visiting my page! I hope you find some of my work interesting."
+        )
 
 
-me = SoftwareEngineer()
+me = SomeDude()
+print(me)
 me.say_hi()
+
 ```
