@@ -18,6 +18,36 @@
 
 <!-- ![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=6aa6f8) -->
 
+```rust
+#[derive(Debug)]
+struct SoftwareEngineer<'a> {
+    name: &'a str,
+    role: &'a str,
+    hobbies: Vec<&'a str>,
+}
+
+impl SoftwareEngineer<'_> {
+    pub fn new() -> Self {
+        Self {
+            name: "Fitzypop",
+            role: "Software Engineer",
+            hobbies: vec![
+                "coding",
+                "music and gear",
+                "craft beer and microbrews",
+                "weightlifting",
+            ],
+        }
+    }
+}
+
+fn main() {
+    println!("Hello, rustacean! Welcome to my profile!");
+    let me = SoftwareEngineer::new();
+    println!("{:?}", me);
+}
+```
+
 ```python
 class SoftwareEngineer:
     def __init__(self):
