@@ -25,8 +25,8 @@ struct SomeDude<'a> {
     hobbies: Vec<&'a str>,
 }
 
-impl SomeDude<'_> {
-    pub fn new() -> Self {
+impl Default for SoftwareEngineer<'_> {
+    fn default() -> Self {
         Self {
             name: "Fitzypop",
             current_role: "Software Engineer",
@@ -43,7 +43,7 @@ impl SomeDude<'_> {
 fn main() {
     println!("Hello there nerds 🤙. Welcome to my profile!");
     
-    let me = SomeDude::new();
+    let me = SomeDude::default();
     println!("{:?}", me);
 }
 ```
