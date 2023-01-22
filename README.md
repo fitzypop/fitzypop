@@ -52,11 +52,10 @@ fn main() {
 ```python
 from dataclasses import dataclass, field
 
-
 @dataclass
 class SomeDude:
-    name = "Fitzypop"
-    role = "Software Engineer"
+    name: str = field(default="Fitzypop")
+    current_role: str = field(default="Software Engineer")
     hobbies: list[str] = field(
         default_factory=lambda: [
             "coding",
@@ -71,9 +70,8 @@ class SomeDude:
             "Thanks for visiting my page! I hope you find some of my work interesting."
         )
 
-
-me = SomeDude()
-print(me)
-me.say_hi()
-
+if __name__ == "__main__":
+    me = SomeDude()
+    print(me)
+    me.say_hi()
 ```
