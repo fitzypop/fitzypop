@@ -41,7 +41,7 @@ impl Default for SomeDude<'_> {
 }
 
 fn main() {
-    println!("Hello there nerds 🤙. Welcome to my profile!");
+    println!("Hello there nerds. 🤙 Welcome to my profile!");
     
     let me = SomeDude::default();
     println!("{:?}", me);
