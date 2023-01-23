@@ -25,7 +25,7 @@ struct SomeDude<'a> {
     hobbies: Vec<&'a str>,
 }
 
-impl Default for SoftwareEngineer<'_> {
+impl Default for SomeDude<'_> {
     fn default() -> Self {
         Self {
             name: "Fitzypop",
@@ -46,31 +46,4 @@ fn main() {
     let me = SomeDude::default();
     println!("{:?}", me);
 }
-```
-
-```python
-from dataclasses import dataclass, field
-
-@dataclass
-class SomeDude:
-    name: str = "Fitzypop"
-    role: str = "Software Engineer"
-    hobbies: list[str] = field(
-        default_factory=lambda: [
-            "coding",
-            "music and gear",
-            "craft beer and microbrews",
-            "weightlifting",
-        ]
-    )
-
-    def say_hi(self):
-        print(
-            "Thanks for visiting my page! I hope you find some of my work interesting."
-        )
-
-if __name__ == "__main__":
-    me = SomeDude()
-    print(me)
-    me.say_hi()
 ```
