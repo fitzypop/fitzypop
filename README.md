@@ -12,7 +12,7 @@
 ![postgresql](https://img.shields.io/badge/Tools-PostgreSQL-informational?style=flat&logo=postgresql)
 ![docker](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker)
 ![deno](https://img.shields.io/badge/Tools-Deno-informational?style=flat&logo=deno)
-![fresh](https://img.shields.io/badge/Tools-Fresh-informational?style=flat&logo=deno)
+![fresh](https://img.shields.io/badge/Tools-Fresh-informational?style=flat&logo=fresh)
 <!-- [![Made with Fresh](https://fresh.deno.dev/fresh-badge-dark.svg)](https://fresh.deno.dev) -->
 
 <!-- ![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=6aa6f8) -->
