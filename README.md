@@ -29,7 +29,7 @@ impl Default for SomeDude<'_> {
     fn default() -> Self {
         Self {
             name: "Fitzypop",
-            current_role: "Software Engineer",
+            current_role: "Looking for work!",
             hobbies: vec![
                 "coding",
                 "music and gear",
